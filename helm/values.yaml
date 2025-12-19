@@ -1,0 +1,10 @@
+image:
+  repository: chikky712/springboot-app
+  tag: "1"
+
+replicaCount: 2
+
+service:
+  type: ClusterIP
+  port: 8080
+

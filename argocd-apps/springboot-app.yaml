@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: springboot-app
+  namespace: argocd       # Make sure it's created in Argo CD namespace
+spec:
+  project: default        # <-- REQUIRED
+  source:
+    repoURL: https://github.com/yourname/springboot-k8s-manifests.git
+    path: helm
+    targetRevision: main
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+
