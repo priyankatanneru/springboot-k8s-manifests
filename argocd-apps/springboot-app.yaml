@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default        # <-- REQUIRED
   source:
-    repoURL: https://github.com/yourname/springboot-k8s-manifests.git
+    repoURL: https://github.com/priyankatanneru/springboot-k8s-manifests.git
     path: helm
     targetRevision: main
   destination:
