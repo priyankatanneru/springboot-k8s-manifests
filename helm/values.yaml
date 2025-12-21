@@ -5,6 +5,6 @@ image:
 replicaCount: 2
 
 service:
-  type: NodePort
+  type: LoadBalancer
   port: 8080
 
