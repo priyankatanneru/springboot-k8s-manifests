@@ -1,6 +1,6 @@
 image:
   repository: chikky712/springboot-app
-  tag: "1"
+  tag: "$TAG"
 
 replicaCount: 2
 
