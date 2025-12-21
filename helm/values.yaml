@@ -5,6 +5,6 @@ image:
 replicaCount: 2
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 8080
 
