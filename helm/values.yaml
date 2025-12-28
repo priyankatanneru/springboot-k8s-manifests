@@ -1,6 +1,6 @@
 image:
   repository: chikky712/springboot-app
-  tag: 72
+  tag: 74
 
 replicaCount: 2
 
